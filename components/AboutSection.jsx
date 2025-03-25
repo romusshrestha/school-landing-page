@@ -10,7 +10,7 @@ export default function AboutSection() {
         <div className="space-y-2">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Our School</h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-            Founded in 1995, Horizon Academy has been dedicated to providing exceptional education for over 25
+            Founded in 1995, Our Academy has been dedicated to providing exceptional education for over 25
             years. Our mission is to inspire a lifelong love of learning and foster academic excellence.
           </p>
         </div>

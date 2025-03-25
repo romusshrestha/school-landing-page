@@ -10,7 +10,7 @@ const HeroSection = () => {
               Empowering Minds, Shaping Futures
             </h1>
             <p className="max-w-[600px] text-gray-600 md:text-xl">
-              At Horizon Academy, we provide a nurturing environment where students discover their potential and
+              At Our Academy, we provide a nurturing environment where students discover their potential and
               develop the skills to succeed in an ever-changing world.
             </p>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
