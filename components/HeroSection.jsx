@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gray-100 relative overflow-hidden">
+    <section className="w-full py-12 md:py-24 lg:py-28 xl:py-40 bg-gray-100 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
           <div className="space-y-4">
