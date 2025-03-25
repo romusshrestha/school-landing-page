@@ -1,5 +1,5 @@
 'use client'
-import { motion,useInView } from 'framer-motion';
+import { delay, motion,useInView } from 'framer-motion';
 import { BookOpen, Users, GraduationCap, ChevronRight } from 'lucide-react'
 import { useRef } from 'react';
 
@@ -37,10 +37,10 @@ const ProgramCard = ({ icon: Icon, title, description, features }) => {
 const ProgramsSection = () => {
 
   const cardRef= useRef(null)
-  const cardInView=useInView(cardRef, { once: true, amount: 0.5 });
+  const cardInView=useInView(cardRef, { once: true, amount: 0.3 });
   const cardVariants = {
     hidden: { opacity: 0, y: -40 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.9, ease: "easeOut" } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.9, ease: "easeOut", delay: 0.4 } },
   };
   // Program data
   const programs = [

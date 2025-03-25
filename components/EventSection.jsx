@@ -43,10 +43,10 @@ const EventCard = ({ image, date, time, title, description, buttonText }) => {
 
 const EventsSection = () => {
   const eventRef=useRef(null);
-  const eventInView = useInView(eventRef, { once: true, amount: 0.5 });
+  const eventInView = useInView(eventRef, { once: true, amount: 0.3 });
   const eventVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut", delay: 0.2 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.9, ease: "easeOut", delay: 0.4 } },
   };
   // Events data
   const events = [
